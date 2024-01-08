@@ -1,0 +1,154 @@
+/*
+  Theme Name: EliteCorp
+  Theme Coder: Ahmed Shreef
+  PSD Designer:
+  FirstColor: #B28E44
+  SecondColor: #ec1c23
+#08526d
+  
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+/* Start Upper Bar */
+body{direction: rtl;background: #ffffff;font-size: 14px;text-align: right}
+body,h1,h2,h3,h4,h5,h6,span,.btn,p,.nav-link,a,
+.h1, .h2, .h3, .h4, .h5, .h6,label,input,textarea{
+    font-family: 'Cairo', sans-serif !important;
+}
+.carousel-caption{
+  text-align: right;
+}
+header .header .carousel .carousel-item img,
+.anthology .content-section .details-box a img, .pages .details-box a.read-more-btn img{transform: none;}
+.section-info .icon:before{
+ left: auto;
+  right: -45px;
+}
+.section-info .icon:after{
+  right: auto;
+  left: -45px;
+}
+
+
+.founders .section-content .border{
+    left: auto;
+    right: -25px;
+}
+.founders .section-content .border{border-radius: 0 15px 0 0;}
+.founders .section-content .image-box  .border-radious{
+    left: auto;
+    right: 20px;
+}
+
+.founders .section-content .details-box h2,
+.anthology .content-section .details-box h2{
+  border-left:0;
+  border-right: 2px solid #B28E44;
+}
+.anthology .content-section .details-box a span{
+  margin-right: auto;
+  margin-left: 20px;
+}
+.anthology .content-section .details-box a:hover span{
+  margin-right: auto;
+  margin-left: 30px;
+}
+.left-image .border{
+  left: -25px !important;
+  right: auto  !important;
+  border-radius: 15px 0 0 0  !important;
+}
+ .left-image .border-radious{
+  right: auto  !important;
+  left: 20px  !important;
+ }
+.contact .section-content .box-content-container{
+    margin-left: auto;
+    margin-right: -112px;
+}
+
+.contact .section-content .box-content-container .box-content ul.social:after{
+    right: auto;
+    left: -7px;
+
+}
+.contact .section-content .box-content-container .box-content ul li{
+  display: inline-block;
+}
+
+/*footer*/
+
+footer .call-us li a i{
+  margin-left: 5px;
+}
+footer .content-col .title-widget::after {
+  left: auto;
+  right: 0;
+}
+.pages.about-us .last-section .h2{
+  border-left: 0;
+  border-right: 1px solid;
+}
+.pages .read-more-btn span,.right-image .read-more-btn span,.left-image .read-more-btn span{
+      margin-right: auto !important;
+      margin-left: 5px !important;
+}
+.pages .read-more-btn:hover span,.right-image .read-more-btn:hover span,.left-image .read-more-btn:hover span{
+  margin-right: auto !important;
+  margin-left: 10px !important;
+}
+.pages.servicess .section-content .box{
+  text-align: right;
+}
+.pages.servicess .section-content .box .box-title .h3{
+  border-left: 0;
+  border-right: 1px solid #B28E44;
+}
+.posts .post-box .post-content h2{border-left: 0;border-right: 1px solid;}
+.posts .post-box .post-content .readmore-container{text-align: left;}
+.posts .post-box .post-content a span{
+ margin-right: auto;
+ margin-left: 20px;
+}
+.posts .post-box .post-content a img{
+  transform: none;
+}
+.auth-icon{
+  margin-left: auto;
+  margin-right: 10px;
+}
+.search-box i.fa-search{
+   left: auto;
+  right: 10px;
+}
+.search-box button{
+  right: auto;
+  left: 0;
+  border-radius: 10px 0 0 10px;
+}
+.bequests-content .content-page .aside .wedget ul li .counter{float: left;}
+.bequests-content .section-info .aqar-box .aqar-detailes .price-deta .price{
+  float: right;border-left: 1px solid;border-right: 0;padding-right: 0;padding-left: 10px;
+}
+.bequests-content .section-info .aqar-box .aqar-detailes .price-deta .more{float: left;}
+.bequest-slide .carousel-caption {
+   left: auto !important;
+    right: 1% !important;
+}
+/*.bequest-slide .carousel-caption*/
+.bequest-content .bequest-desc ul li{margin-left: 25px;margin-right: 0;}
+.bequest-content .bequest-desc ul li .key{margin-left: 5px;margin-right: 0;}
+/*.founders .section-content .border{
+    left: 50px !important;
+    right: auto !important;
+}*/
+/*****Media screen*/
+@media (min-width: 1200px){
+}
+@media (max-width: 768px){
+  .contact .section-content .box-content-container{margin-left: auto !important;}
+}
+
+@media (max-width: 480px){
+   
+}
