@@ -16,10 +16,9 @@ class JournalEntityController extends Controller
 {
     //
     public function showAlljournalentities(){
-        $all_entities = JournalEntity::with('shipment')
-        // ->where("user_id" , Auth::id())
+        $all_entities = JournalEntity::where('user_id' , Auth::id())->with('shipment')
         ->get();
-        // dd($user_shipments[0]->product);
+        // dd($all_entities);
         return view('shipments.journal_entities_data' , compact('all_entities'));
     } 
 

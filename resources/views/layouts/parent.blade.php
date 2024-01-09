@@ -32,6 +32,13 @@
                 <a class="nav-item nav-link active " href="{{route('categories.myShipments')}}" > My shipments </a>
                 <a class="nav-item nav-link active " href="{{route('categories.myJournalEntity')}}" > My journal entity </a>
               </div>
+              <a href="{{ route('logout') }}" style="margin-left: auto; margin-right: 0;"
+                   onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                   Logout</a>
+
+              <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                  @csrf
+              </form>
             </div>
           </nav>
         <!-- /.navbar -->
